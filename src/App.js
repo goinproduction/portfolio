@@ -1,7 +1,13 @@
-import './App.css';
+import './App.scss';
+import './styles/_layout.scss';
 
 function App() {
-    return <h1></h1>;
+    return (
+        <div className='App'>
+            <div className='sidebar'></div>
+            <div className='main-content'></div>
+        </div>
+    );
 }
 
 export default App;
