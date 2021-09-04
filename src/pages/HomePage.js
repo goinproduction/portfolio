@@ -1,7 +1,6 @@
 import React from 'react';
 import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
@@ -14,10 +13,10 @@ function HomePage() {
                     <span> Suu Nguyen</span>
                 </h1>
                 <p className='h-sub-text'>
-                    I'm a last-year student of Information Technology at HCM
+                    A last-year student of Information Technology faculty at HCM
                     University of Science.
                     <br />
-                    I'm cerrently looking for a new job.
+                    Currently, I am looking for a new job.
                 </p>
                 <div className='icons'>
                     <Link

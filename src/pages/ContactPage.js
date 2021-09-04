@@ -25,17 +25,17 @@ function ContactPage() {
                 <div className='contact-sect'>
                     <ContactItem
                         icon={phone}
-                        text={'+84 374586530'}
+                        text={'(037) 4586 530'}
                         title={'Phone'}
                     />
                     <ContactItem
-                        icon={email}
-                        text={'itdev.126@hmail.com'}
+                        icon={email}    
+                        text={'itdev.126@gmail.com'}
                         title={'Email'}
                     />
                     <ContactItem
                         icon={location}
-                        text={'KTX Khu B DHQG, Linh Trung, Thu Duc'}
+                        text={'KTX Khu B DHQG, Linh Trung, Thu Duc, TP. HCM'}
                         title={'Address'}
                     />
                 </div>
