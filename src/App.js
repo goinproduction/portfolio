@@ -1,11 +1,11 @@
 import './App.scss';
-import NavBar from './Components/NavBar';
-import HomePage from './Pages/HomePage';
+import NavBar from './components/NavBar';
+import HomePage from './pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
-import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
-import BlogsPage from './Pages/BlogsPage';
-import ContactPage from './Pages/ContactPage';
+import AboutPage from './pages/AboutPage';
+import PortfliosPage from './pages/PortfoliosPage';
+import BlogsPage from './pages/BlogsPage';
+import ContactPage from './pages/ContactPage';
 import { useState } from 'react';
 
 function App() {

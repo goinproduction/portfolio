@@ -1,9 +1,9 @@
 import React from 'react'
-import ContactItem from '../Components/ContactItem';
+import ContactItem from '../components/ContactItem';
 import phone from '../img/phone.svg';
 import email from '../img/emailme.svg';
 import location from '../img/location.svg';
-import Tittle from '../Components/Tittle';
+import Tittle from '../components/Tittle';
 
 function ContactPage() {
     return (
