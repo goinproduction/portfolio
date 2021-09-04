@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/img/music.png",
+        "title": "Music Player",
+        "description": "Music Player using Javascript",
+        "direction": "https://github.com/snguyen126/js-music-player"
+    },
+    {
+        "id": 2,
+        "image": "/assets/img/todos.png",
+        "title": "Todos",
+        "description": "Todos using ReactJS/ NodeJS/ ExpressJS/ MongoDB",
+        "direction": "https://github.com/snguyen126/react-nodejs-todos"
+    },
+    {
+        "id": 3,
+        "image": "/assets/img/netflix.png",
+        "title": "Netflix",
+        "description": "Netflix using ReactJS/ NodeJS/ ExpressJS/ MongoDB",
+        "direction": "https://github.com/snguyen126/react-nodejs-netflix"
+    },
+    {
+        "id": 4,
+        "image": "/assets/img/favorite.png",
+        "title": "Favorite Films",
+        "description": "Favorite Films using ReactJS/ TypeScript/ Material UI",
+        "direction": "https://github.com/snguyen126/favorite-films"
+    },
+    {
+        "id": 5,
+        "image": "/assets/img/book.png",
+        "title": "Book Manager",
+        "description": "Book Manager using ReactJS/ Apollo GraphQL/ MongoDB",
+        "direction": "https://github.com/snguyen126/book-manager"
+    },
+    {
+        "id": 6,
+        "image": "/assets/img/car.png",
+        "title": "Car Manager",
+        "description": "Book Manager using C++/OOP",
+        "direction": "https://github.com/snguyen126/carstore-manager"
+    },
+    {
+        "id": 7,
+        "image": "/assets/img/hospital.png",
+        "title": "Hospital Manager",
+        "description": "Hospital Manager using C++/OOP",
+        "direction": "https://github.com/snguyen126/hospital-manager"
+    }
+]

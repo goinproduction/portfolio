@@ -1,16 +1,19 @@
 import React from 'react';
+import data from '../fixtures/portfolio.json';
 
-function MenuItems({ menuItem }) {
+function MenuItems() {
     return (
         <div className='portfolis'>
-            {menuItem.map((item) => {
+            {data.map((item) => {
                 return (
                     <div className='portfolio' key={item.id}>
                         <div className='image-data'>
                             <img src={item.image} alt='' />
                         </div>
-                        <h5>{item.title}</h5>
-                        <p>Placeholder paragraph</p>
+                        <a href={item.direction} target='_blank'>
+                            {item.title}
+                        </a>
+                        <p>{item.description}</p>
                     </div>
                 );
             })}
