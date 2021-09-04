@@ -1,5 +1,5 @@
 {
-  "homepage": "http://snguyen126.github.io/portfolio",
+  "homepage": "https://snguyen126.github.io/portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "sass": "^1.39.0",
+    "sed": "0.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
