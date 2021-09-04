@@ -11,10 +11,9 @@ const portfolios = [
         category: 'Animation',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Open project',
         image: port1,
-        title: 'Autodesk Maya'
+        title: 'Autodesk Maya',
     },
     {
         id: 2,
@@ -24,7 +23,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port2,
-        title: 'Python Web Scrapping'
+        title: 'Python Web Scrapping',
     },
     {
         id: 3,
@@ -34,7 +33,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port3,
-        title: 'Autodesk Maya'
+        title: 'Autodesk Maya',
     },
     {
         id: 4,
@@ -44,7 +43,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Vanilla Javascript Website'
+        title: 'Vanilla Javascript Website',
     },
     {
         id: 5,
@@ -54,7 +53,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port6,
-        title: 'Getting Started With React'
+        title: 'Getting Started With React',
     },
     {
         id: 6,
@@ -64,7 +63,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port7,
-        title: 'Vanilla Javascript Website'
+        title: 'Vanilla Javascript Website',
     },
     {
         id: 7,
@@ -74,8 +73,8 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port4,
-        title: 'Vanilla Javascript Website'
-    }
-]
+        title: 'Vanilla Javascript Website',
+    },
+];
 
 export default portfolios;

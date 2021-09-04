@@ -1,5 +1,4 @@
 import React from 'react';
-import Categories from '../components/Categories';
 import MenuItems from '../components/MenuItems';
 import Tittle from '../components/Tittle';
 import portfolios from '../components/allportfolios';
@@ -31,7 +30,6 @@ function PortfoliosPage() {
                 <Tittle title={'Portfolios'} span={'portfolios'} />
             </div>
             <div className='portfolios-data'>
-                <Categories filter={filter} categories={categories} />
                 <MenuItems menuItem={menuItems} />
             </div>
         </div>
