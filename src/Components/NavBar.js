@@ -1,4 +1,5 @@
 import React from 'react';
+import avt from '../assets/img/avt.jpg';
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
@@ -6,7 +7,7 @@ function Navbar() {
         <div className='NavBar'>
             <nav className='nav'>
                 <div className='profile'>
-                    <img src='/assets/img/avt.jpg' alt='avatar' />
+                    <img src={avt} alt='avatar' />
                 </div>
 
                 <ul className='nav-items'>
@@ -26,7 +27,7 @@ function Navbar() {
                             exact
                             activeClassName='active'
                         >
-                            Portfolios
+                            Projects
                         </NavLink>
                     </li>
                     <li className='nav-item'>

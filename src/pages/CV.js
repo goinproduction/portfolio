@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../components/Tittle';
-
+import CVPDF from '../assets/pdf/CV.pdf';
 const CV = () => {
     return (
         <div className='title'>
@@ -8,7 +8,7 @@ const CV = () => {
             <object
                 width='100%'
                 height='700vh'
-                data='/assets/pdf/CV.pdf'
+                data={CVPDF}
                 type='application/pdf'
                 style={{ marginTop: '70px' }}
             ></object>

@@ -1,8 +1,8 @@
 import React from 'react';
 import ContactItem from '../components/ContactItem';
-import phone from '../img/phone.svg';
-import email from '../img/emailme.svg';
-import location from '../img/location.svg';
+import phone from '../assets/img/phone.svg';
+import email from '../assets/img/emailme.svg';
+import location from '../assets/img/location.svg';
 import Tittle from '../components/Tittle';
 
 function ContactPage() {
@@ -18,7 +18,7 @@ function ContactPage() {
                         width='600'
                         height='450'
                         style={{ border: 0 }}
-                        allowfullscreen=''
+                        allowFullScreen=''
                         area-hidden='false'
                     ></iframe>
                 </div>
@@ -29,7 +29,7 @@ function ContactPage() {
                         title={'Phone'}
                     />
                     <ContactItem
-                        icon={email}    
+                        icon={email}
                         text={'itdev.126@gmail.com'}
                         title={'Email'}
                     />

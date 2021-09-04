@@ -1,10 +1,10 @@
 import React from 'react';
-import data from '../fixtures/portfolio.json';
+import { projects } from '../fixtures/projects';
 
 function MenuItems() {
     return (
         <div className='portfolis'>
-            {data.map((item) => {
+            {projects.map((item) => {
                 return (
                     <div className='portfolio' key={item.id}>
                         <div className='image-data'>
